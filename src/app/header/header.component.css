@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+     position: sticky;
+  }
+  
+  h1 {
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+  }
+  

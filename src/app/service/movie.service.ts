@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable,signal } from '@angular/core';
 import { tap,catchError,throwError } from 'rxjs';
-import { IMovie,IMovieList } from '../../model/movie.model';
-import { environment } from '../../../environments/environment';
+import { IMovie,IMovieList } from '../model/movie.model';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'

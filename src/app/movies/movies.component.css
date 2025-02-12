@@ -26,4 +26,7 @@
     text-overflow: ellipsis;
     font-size: 1.1rem;
   }
-  
+  .info{
+    color:white;
+    font-size: 1.2rem;
+  }

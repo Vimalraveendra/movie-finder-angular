@@ -1,6 +1,7 @@
 <form class="search-container" [formGroup]="form" (ngSubmit)="onSubmit()">
     <input type="text" placeholder="Find Movies..." formControlName="searchText" />
     <button type="submit">Click </button>
+    <button type="button" class="clear" (click)="clearMovies()">Clear </button>
     @if(error()){
     <p class="control-error">{{error()}}.</p>
     }

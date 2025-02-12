@@ -7,9 +7,9 @@
 /bazel-out
 
 #ENV
-environments
-.environment.development.ts
-.environment.ts
+/environments
+/environments/environment.development.ts
+/environments/environment.ts
 
 # Node
 /node_modules

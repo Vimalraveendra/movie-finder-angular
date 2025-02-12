@@ -1,0 +1,11 @@
+<div class="movies-container">
+
+    @for(movie of moviesArray(); track movie.imdbID){
+    <div class="movie-container">
+        <img [src]="movie.Poster" [alt]="movie.Title" />
+        <h2>{{movie.Title}}</h2>
+        <p>{{movie.Year}} </p>
+    </div>
+    }
+
+</div>

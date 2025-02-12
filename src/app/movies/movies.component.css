@@ -1,0 +1,29 @@
+.movies-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin:20px;
+  
+  }
+  .movie-container {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 1px 3px 8px;
+    border-radius: 5px;
+  }
+  .movie-container img {
+    max-width: 100%;
+    /* width: 200px; */
+    width: 100%;
+    height: 280px;
+  }
+  .movie-container h2 {
+    margin: 0px;
+    white-space: nowrap;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.1rem;
+  }
+  

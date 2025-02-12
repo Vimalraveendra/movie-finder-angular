@@ -1,5 +1,7 @@
+@if(!moviesArray().length){
+<p class="info">Please enter a movie name and press "Click"</p>
+}@else {
 <div class="movies-container">
-
     @for(movie of moviesArray(); track movie.imdbID){
     <div class="movie-container">
         <img [src]="movie.Poster" [alt]="movie.Title" />
@@ -9,3 +11,4 @@
     }
 
 </div>
+}

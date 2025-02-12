@@ -54,4 +54,8 @@ export class SearchMoviesComponent  implements OnInit{
      this.destroyRef.onDestroy(()=>subscription.unsubscribe())
      this.form.reset()
   }
+
+  clearMovies(){
+    this.movieService.resetLoadMovies();
+  }
 }
